@@ -10,7 +10,7 @@ class GreetMakerFactory {
 	    	return new GreetMakerUppercase();
 	    }		
 		else {
-			return new GreetMakerBasic();
+			return new GreetMaker();
 		}
 	}
 }

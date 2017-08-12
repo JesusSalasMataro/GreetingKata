@@ -55,15 +55,15 @@ describe("", function() {
 		expect(greeting).toBe('Hello, Amy, Brian, and Charlotte.');
 	});	
 
-	// it("when receive an array of more of two names returns Hello, name_1, name_2, ... and name_n.", function() {
-	// 	// ARRANGE
-	// 	let sut = new GreetingFactory();
+	it("when receive an array of more of two names returns Hello, name_1, name_2, ... and name_n.", function() {
+		// ARRANGE
+		let sut = new GreetingFactory();
 
-	// 	// ACT
-	// 	let greeting = sut.greet(["Amy", "BRIAN", "Charlotte"]);
+		// ACT
+		let greeting = sut.greet(["Amy", "BRIAN", "Charlotte"]);
 
-	// 	// ASSERT
-	// 	expect(greeting).toBe('Hello, Amy and Charlotte. AND HELLO BRIAN!');
-	// });	
+		// ASSERT
+		expect(greeting).toBe('Hello, Amy and Charlotte. AND HELLO BRIAN!');
+	});	
 });
 

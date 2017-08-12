@@ -1,3 +1,0 @@
-class GreetMakerBasic extends GreetMaker {
-
-}
